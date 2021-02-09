@@ -1,13 +1,13 @@
-# Trip sorter
+#My Trip sorter
 
-The application (Trip sorter) was bootstrapped with create-react-app.
+The application (My Trip sorter) was bootstrapped with create-react-app.
 
 ## To Run the app locally
 
 STEP:1 First clone the project using the command:
 
 ```
-git clone https://github.com/Georgedev2/trip-sorter-application.git
+git clone https://github.com/Georgedev2/my-trip-sorter.git
 ```
 
 STEP:2 Install the dependencies using the below command:
