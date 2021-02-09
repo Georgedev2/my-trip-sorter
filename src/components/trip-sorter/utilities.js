@@ -19,7 +19,7 @@ export const sortTrip = (data, options, sortBy) => {
       }
     });
 
-    //Sorting each deals based on duration
+    //Sorting filteredDeals based on duration in ascending order
     filteredDeals.sort((a, b) => a.duration - b.duration);
     return filteredDeals;
   }
@@ -35,7 +35,7 @@ export const sortTrip = (data, options, sortBy) => {
       }
     });
 
-    //Sorting each deals based on cost in ascending order
+    //Sorting filteredDeals based on cost in ascending order
     filteredDeals.sort((a, b) => a.cost - b.cost);
     return filteredDeals;
   }
