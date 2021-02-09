@@ -1,0 +1,134 @@
+.sort-btns {
+  width: fit-content;
+}
+
+.trip-sorter {
+  margin: auto;
+}
+.sort-btns {
+  margin: auto;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 5px 10px;
+  background-color: #f3a1c1;
+  margin: 20px 10px;
+  cursor: pointer;
+  color: #eee;
+  border-radius: 3px;
+  font-weight: 550;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  transition: 0.4s;
+  width: fit-content;
+  margin: auto;
+}
+.btn:hover {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+.sort-by {
+  padding: 10px 15px;
+  background-color: #fff;
+  color: #000;
+  margin: 20px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 550;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  transition: 0.4s;
+  outline: none;
+  border: none;
+}
+.sort-by:focus {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  color: #eee;
+  background-color: #ea4c89;
+  transform: scale(0.98);
+}
+.box {
+  text-align: center;
+}
+.from,
+.to {
+  width: 300px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+.to {
+  margin-top: 20px;
+}
+
+/* --- STYLING OF TRIP CONTEINER---- */
+.trips_container {
+  margin: 20px auto;
+}
+.trip-title {
+  text-align: center;
+  display: none;
+}
+.trip-title > span {
+  font-weight: 700;
+}
+.trip-title-display {
+  display: block;
+}
+
+.trip {
+  width: 300px;
+  border: 1px solid #ddd;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px auto;
+}
+
+.trip-info {
+  width: 65%;
+}
+
+.trip_destination,
+.trip_further-info {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.trip_destination {
+  height: 30px;
+}
+.trip_further-info {
+  font-size: 12px;
+}
+.trip_destination span:nth-child(1),
+.trip_destination span:nth-child(3),
+.trip_price {
+  font-weight: 700;
+}
+.trip_destination span:nth-child(2) {
+  font-weight: 700;
+  font-size: 30px;
+}
+.reset-btn {
+  padding: 5px 10px;
+  background-color: #f3a1c1;
+  margin: 20px 10px;
+  cursor: pointer;
+  color: #eee;
+  border-radius: 3px;
+  font-weight: 550;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  transition: 0.4s;
+  width: fit-content;
+  margin: auto;
+  display: none;
+}
+.show-reset-btn {
+  display: block;
+}
